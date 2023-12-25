@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kysect.DotnetSlnGenerator", "Kysect.DotnetSlnGenerator\Kysect.DotnetSlnGenerator.csproj", "{5FF681A7-5DD6-429D-A971-58CCD718EE8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FF681A7-5DD6-429D-A971-58CCD718EE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF681A7-5DD6-429D-A971-58CCD718EE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF681A7-5DD6-429D-A971-58CCD718EE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF681A7-5DD6-429D-A971-58CCD718EE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0e6e28a0-da85-4cd1-8852-e3a065e4d6d2}
+	EndGlobalSection
+EndGlobal
