@@ -1,0 +1,38 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Kysect</Authors>
+    <Company>Kysect</Company>
+    <PackageIcon>Kysect-logo.png</PackageIcon>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <Copyright>Copyright (c) Kysect 2023</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <RepositoryUrl>https://github.com/kysect/Template</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/kysect/Template</PackageProjectUrl>
+    <Version>0.0.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+    <DebugType>portable</DebugType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Kysect.Editorconfig" />
+    <None Include="$(SolutionDir)..\Images\Kysect-logo.png" Pack="true" PackagePath="" />
+    <None Include="$(SolutionDir)..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>
