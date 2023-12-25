@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34310.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kysect.DotnetSlnGenerator", "Kysect.DotnetSlnGenerator\Kysect.DotnetSlnGenerator.csproj", "{5FF681A7-5DD6-429D-A971-58CCD718EE8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kysect.DotnetSlnGenerator.Tests", "Kysect.DotnetSlnGenerator.Tests\Kysect.DotnetSlnGenerator.Tests.csproj", "{6F2B2970-EC44-4594-993F-913132897928}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5FF681A7-5DD6-429D-A971-58CCD718EE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FF681A7-5DD6-429D-A971-58CCD718EE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FF681A7-5DD6-429D-A971-58CCD718EE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2B2970-EC44-4594-993F-913132897928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2B2970-EC44-4594-993F-913132897928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2B2970-EC44-4594-993F-913132897928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2B2970-EC44-4594-993F-913132897928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
