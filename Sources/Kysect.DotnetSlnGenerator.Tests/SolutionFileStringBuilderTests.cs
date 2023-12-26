@@ -30,4 +30,18 @@ public class SolutionFileStringBuilderTests
 
         actual.Should().Be(expected);
     }
+
+    [Test]
+    public void Build_WithOneProject_ReturnExpectedString()
+    {
+        var solutionFileStringBuilder = new SolutionFileStringBuilder();
+
+        string projectName = "Project";
+        string projectPath = "Project/Project.csproj";
+        var actual = solutionFileStringBuilder
+            .AddProject(projectName, projectPath)
+            .Build();
+
+        actual.Should().Contain($"= \"{projectName}\", \"{projectPath}\",");
+    }
 }
